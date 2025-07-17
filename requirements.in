@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+# tensorflow
+xgboost
+lightgbm
+shap
+imbalanced-learn
+joblib
+matplotlib
+seaborn
+ydata-profiling
+wordcloud
+streamlit
+jupyterlab
+notebook
