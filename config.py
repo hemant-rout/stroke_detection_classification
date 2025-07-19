@@ -20,10 +20,12 @@ FEATURES = [
     'smoking_status_smokes'
 ]
 SCALING_FILE_NAME = "scaler"
-MODELS_DICT = {
-    "xgb_model": "xgb_model.pkl",
-    "rf_model": "rf_model.pkl",
-    "lr_model": "logreg_model.pkl",
-    "lgm_model": "lgbm_model.pkl",
-    "stacking_model": "stacking_model.pkl"
+MODEL_MAPPING = {
+    "XGBoost": "xgb_model.pkl",
+    "Random Forest": "rf_model.pkl",
+    "LightGBM": "lgbm_model.pkl",
+    "Stacking Model": "stacking_model.pkl",
+    "Decision Tree": "dt_model.pkl"
 }
+
+MODEL_NAMES=["XGBoost", "Random Forest", "LightGBM", "Stacking Model", "Decision Tree"]
