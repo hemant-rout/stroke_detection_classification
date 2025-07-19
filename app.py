@@ -26,12 +26,12 @@ def load_models_and_scaler() -> tuple[dict[str, BaseEstimator], object]:
     models = {}
     for model_name, model_file in MODEL_MAPPING.items():
         try:
-            model = joblib.load(f"{MODEL_DIR}/{model_file}")
+            model = joblib.load(f"models/{model_file}")
             models[model_name] = model
         except Exception as e:
             logger.error(f"Failed to load {model_name}: {e}")
     try:
-        scaler = joblib.load(f"{MODEL_DIR}/{SCALING_FILE_NAME}.pkl")
+        scaler = joblib.load(f"models/{SCALING_FILE_NAME}.pkl")
     except Exception as e:
         logger.error(f"Failed to load scaler: {e}")
         scaler = None
