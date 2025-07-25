@@ -49,22 +49,22 @@ Predict whether a patient is likely to experience a stroke using provided health
 stroke_detection_classification/
 │
 ├── data/
-│ ├── raw/ # Original raw datasets
-│ └── processed/ # Cleaned & engineered datasets
+│   ├── raw/          # Original raw datasets
+│   └── processed/    # Cleaned & engineered datasets
 │
-├── notebooks/ # Jupyter notebooks (EDA, modeling)
-├── reports/ # Model predictions, evaluation reports
-├── src/ # Core Python code for modeling & preprocessing
-│ ├── preprocessing.py
-│ ├── modeling.py
-│ ├── evaluation.py
-│ └── utils.py
+├── notebooks/        # Jupyter notebooks (EDA, modeling)
+├── reports/          # Model predictions, evaluation reports
+├── src/              # Core Python code for modeling & preprocessing
+│   ├── preprocessing.py
+│   ├── modeling.py
+│   ├── evaluation.py
+│   └── utils.py
 │
-├── models/ # Trained models (.pkl)
-├── app.py # Streamlit web application
-├── requirements.in # Dependency list (editable)
-├── requirements.txt # Locked dependencies
-└── README.md # You are here
+├── models/           # Trained models (.pkl)
+├── app.py            # Streamlit web application
+├── requirements.in   # Dependency list (editable)
+├── requirements.txt  # Locked dependencies
+└── README.md
 
 ---
 
