@@ -118,6 +118,6 @@ Female	42	0	0	Yes	Private	Rural	84.18	26.1	smokes
 
 🧑‍💻 Author
 Hemant Kumar Rout
-🔗 GitHub([text](https://github.com/hemant-rout))
+🔗 [GitHub](https://github.com/hemant-rout)
 
 
