@@ -25,7 +25,7 @@ MODEL_MAPPING = {
     "Random Forest": "rf_model.pkl",
     "LightGBM": "lgbm_model.pkl",
     "Stacking Model": "stacking_model.pkl",
-    "Decision Tree": "dt_model.pkl"
+    "Decision Tree": "decision_tree_model.pkl"
 }
 
 MODEL_NAMES=["XGBoost", "Random Forest", "LightGBM", "Stacking Model", "Decision Tree"]
