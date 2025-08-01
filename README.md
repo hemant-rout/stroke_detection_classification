@@ -87,7 +87,7 @@ stroke_detection_classification/
       ```streamlit run app.py```    
          or    
    b. Streamlit hosted app    
-      ```(https://strokedetectionclassification-yt5ojuyg6orf2nsxs85ab8.streamlit.app/)```
+      ```[https://strokedetectionclassification-yt5ojuyg6orf2nsxs85ab8.streamlit.app/](https://strokedetectionclassification-yt5ojuyg6orf2nsxs85ab8.streamlit.app/)```
       
 ---
 🧪 Try It Yourself (Sample Inputs)
